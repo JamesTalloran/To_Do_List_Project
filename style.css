@@ -1,0 +1,96 @@
+body{
+    background: linear-gradient(98deg, dodgerblue, darkorchid, crimson);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+    font-family: 'Segoe UI';
+}
+.box{
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+    background-color: azure;
+    padding: 30px 25px 35px 25px;
+    border-radius: 15px;
+    box-shadow: 5px 10px 20px rgb(31, 30, 30) ;
+}
+h1{
+    color: darkslategrey;
+}
+.in-box{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+input{
+    flex: 1;
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid gray;
+    transition: 0.7s;
+}
+input:focus{
+    outline: none;
+    border: 1px solid dodgerblue;
+}
+.boxbtn{
+    background-color: #4579CB;
+    color: azure;
+    padding: 12px;
+    border-radius: 12px;
+    border: none;
+}
+.done{
+    background-color: forestgreen;
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    color: azure;
+    font-size: 14px;
+    font-weight: 600;
+}
+.done:hover{
+    background-color: #4579CB;
+}
+.edit{
+    background-color: darkorange;
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    color: azure;
+    font-size: 14px;
+    font-weight: 600;
+}
+.edit:hover{
+    background-color: #4579CB;
+}
+.delete{
+    background-color: crimson;
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    color: azure;
+    font-size: 14px;
+    font-weight: 600;
+}
+.delete:hover{
+    background-color: #4579CB;
+}
+.boxline{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #eeeeee;
+    border: 1px solid darkgrey;
+    border-radius: 15px;
+    padding: 12px;
+    list-style: none;
+}
+.boxlist{
+    max-height: 150px;
+    overflow-y: auto;
+    padding-left: 0px;
+    display: grid;
+    row-gap: 10px;
+}
